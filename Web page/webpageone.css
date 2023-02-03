@@ -1,0 +1,200 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+container{
+    display: flex;
+    flex-direction: column;
+
+}
+.header1{
+    
+    height:15vh;
+    width: auto;
+    background-color: orange;
+
+}
+.header1:hover{
+    
+    height:15vh;
+    width: auto;
+    background-color:#FFEA20;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.content{  
+    display: flex;
+    flex-direction: row;
+    background-color: lightslategrey;
+    border: 5px double orange;
+    border-radius: 15px;
+    height: 100%;
+    width: auto;
+}
+.content:hover{  
+    display: flex;
+    flex-direction: row;
+    background-color: #3F3B6C;
+    border: 5px double orange;
+    border-radius: 15px;
+    height: 100%;
+    width: auto;
+}
+
+.footer{
+    border: 2px solid #fff;
+    height:15vh;
+    width: auto;
+    background-color: orange;
+  
+
+}
+.footer:hover{
+    border: 2px solid #fff;
+    height:15vh;
+    width: auto;
+    background-color: orange;
+    background-color: #FFEA20;
+  
+
+}
+.lists{
+    margin: 30px;
+    padding: 15px 5px;
+    list-style-type: none;
+   font-style: italic;
+   display: flex;
+
+}
+
+.aa{color: #72241a;
+    border: 7px none #fff;
+    text-decoration: none;
+    font-size: 25px;
+    /* box-shadow: 3%; */
+    margin: 2px 3px;
+    padding: 2px 3px;
+}
+.active{
+    background-color:#e5a8bb;
+}
+
+.aa:hover{
+    border: ridge 5px #9486bb;
+    transition:  0.6s linear ;
+    
+}
+.header0{ border: 2px solid #fff;
+    height:15vh;
+    width: auto;
+    background-color: orange;
+    display: flex;
+}
+.header2{
+    font-family: system-ui;
+   font-size: 1.25em;
+   width: 100%;
+}
+.header2:hover{
+    font-family: cursive;
+   font-size: 1.25em;
+   width: 100%;
+   background-color:#FFEA20;
+}
+marquee h1{
+    color: #fff;
+    font-size: 55px;
+}
+marquee h1:hover{
+    color: rgb(90, 30, 168);
+    font-size: 55px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
+.contentone{
+    padding-top: 50px;
+    padding-right: 10px;
+    height: 70vh;
+    width: 50%;
+    color: #fff;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.contentone:hover{
+    padding-top: 50px;
+    padding-right: 10px;
+    height: 70vh;
+    width: 50%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:right;
+    color:#e0dd08;
+    text-decoration:underline;
+}
+.contenttwo{
+    height: 100vh;
+    width: 50%;
+    background-image: url('assets/fabian-irsara-67l-QujB14w-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.ff{
+    font-size: 20px;
+    color:#fff ;
+}
+.ff:hover{
+    font-size: 25px;
+    color: rgb(90, 30, 168);
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.ee{
+    display: flex;
+    flex-direction: column;
+}
+
+.gg {
+border: 3px double #012427;
+border-radius: 40px;
+}
+.gg:hover{
+    border: 3px ridge #0e0127;
+    border-radius: 50px;
+    }
+.zz{
+    color:#fff;
+}
+.zz:hover{
+    color:goldenrod;
+}
+
+.ww{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+.ww:hover{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+.yy{
+    font-size: 35px;
+    color:silver ;
+    text-decoration: underline;
+}
+.yy:hover{
+    font-size: 35px;
+    color:black ;
+    text-decoration: underline;
+}
